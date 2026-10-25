@@ -48,6 +48,9 @@ def wxvarsjson():
 	return resp
 
 # redirect to root route
+@app.route('/')
+def approute():
+    return redirect('/static/main/index_lt.html')
 
 # With debug=True, Flask server will auto-reload 
 # when there are code changes
