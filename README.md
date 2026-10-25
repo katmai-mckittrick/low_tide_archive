@@ -1,1 +1,1 @@
-Link to the website: https://lowtidedata.org/
+Link to the website: https://archive.lowtidedata.org/
