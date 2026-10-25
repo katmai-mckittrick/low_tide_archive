@@ -27,6 +27,8 @@ class CrabVisualizationFrame extends CrabVisualizationFrameRoot {
 
     constructor(master,data,crab_colors) {
 		super(master,data,crab_colors)
+		document.getElementById('redirect').href=`${window.location.protocol}//${window.location.host}/static/NMDS/index_NMDS.html`
+		document.getElementById('info').href=`${window.location.protocol}//${window.location.host}/static/main/info.html`
     }
 
     draw_graph(data,li,x_max,params,days,d) { 
@@ -402,5 +404,3 @@ window.addEventListener('pointermove', (e) => {
 });
 
 new CrabVisualizationFrame();
-
-
